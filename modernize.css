@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    background-color: #1a1a1a;
+    width:1200px;
+    margin: 0px auto;
+    border-left: black 10px solid;
+    border-right: black 10px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cfcfce;
+}
+    .logo{
+        display: inline-block;
+        width:20%;
+        padding:30px 20px;
+    }
+    .callus{
+        display: inline-block;
+        width: 15%;
+        margin: 50px 0px 0px 56%;
+        vertical-align: top;
+        font-size: 17px;
+    }
+    ul{
+        background-image: linear-gradient(#525252,#424242,#242424);
+        color: #a3a3a3;
+    }
+    ul li{
+        display: inline-block;
+        text-align: center;
+        font-size: 18px;
+        border-right: gray 3px groove;
+        margin: 10px 0px;
+        padding: 5px 15px;
+    }
+    ul li:first-child{
+        color: #dadada;
+    }
+    ul li:last-child{
+        padding-right:470px;
+        border-right: gray 3px groove;
+    }
+    .main_pic{
+        width: 100%;
+        border-bottom: #3b3b3b 5px solid;
+    }
+
+
+    .content_icon{
+        display: inline-block;
+        width:5%;
+        padding:30px 20px;
+        vertical-align: top;
+    }
+    .content{
+        display: inline-block;
+        width:15%;
+    }
+    .content h4{
+        color: #ed7b28;
+        padding-top: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .content p{
+        font-size: 15px;
+        padding: 10px 0px;
+        margin-bottom: 50px;
+    }
+
+    .stripebackground{
+        background: repeating-linear-gradient(-45deg, black, black 2px, #1c1c1c 2px, #1c1c1c 4px);
+        width: 100%;
+    }
+        .ad{
+            display: inline-block;
+            width: 60%;
+            margin: 50px;
+        }
+        .ad p{
+            font-size: 15px;
+            margin: 10px;
+        }
+        .stripebackground bottom{
+            background-image: linear-gradient(#f2a266,#ed7b28);
+            display: inline-block;
+            width:7%;
+            border-radius: 10px;
+            vertical-align: top;
+            color: white;
+            margin: 60px 20px 0px 15%;
+            padding: 10px 30px;
+            text-align: center;
+        }
+
+    
+    h3{
+        display: inline-block;
+        width: 80%;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 30px 20px;
+
+    }
+    .viewprojects{
+        display: inline-block;
+        width: 15%;
+        color: #ee7e2c;
+        font-size: 15px;
+        font-style: italic;
+    }
+    .porfolio{
+        display: inline-block;
+        width:22%;
+        vertical-align: top;
+        margin: 20px 0px 0px 20px;
+    }
+    .porfolio img{
+        width: 100%;
+        border: #3b3b3b 5px solid;
+    }
+    .porfolio h4{
+        color: #ee7e2c;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px 0px;
+    }
+    .porfolio p{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .backtotop{
+        text-align: right;
+        font-size: 15px;
+        color: #6c706d;
+        margin-right: 20px;
+    }
